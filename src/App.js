@@ -1,16 +1,46 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class App extends Component {
-  constructor(props) {
+class Rect extends Component {
+  // reset value
+  x = 0;
+  y = 0;
+  width = 0;
+  height = 0;
+  color = "white";
+  style = {};
+  // setting props
+  constructor(props){
     super(props);
-    this.title = props.title;
+    this.x = props.x;
+    this.y = props.y;
+    this.width = props.w;
+    this.height = props.h;
+    this.color = props.c;
+    // set styles
+    this.style = {
+      backgroundColor:this.color,
+      position:"absolute",
+      left:this.x + "px",
+      top:this.y + "px",
+      width:this.width + "px",
+      height:this.height + "px"
+    }
   }
-  render() {
+
+  render(){
+    return <div style={this.style}></div>;
+  }
+}
+
+class App extends Component {
+  render(){
     return (
-      <div className="wrap">
-        <h1>{this.title}</h1>
-        <p>Hey! this is just a sample code</p>
+      <div>
+        <h1>React</h1>
+        <Rect x="50" y="50" w="150" h="150" c="cyan" />
+        <Rect x="150" y="100" w="150" h="150" c="magenta" />
+        <Rect x="100" y="150" w="150" h="150" c="gray" />
       </div>
     );
   }
