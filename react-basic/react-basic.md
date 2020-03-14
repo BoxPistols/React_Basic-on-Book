@@ -31,7 +31,7 @@ ReactDOM.render(
 
 ```
 
-#### props省略
+### props省略
 
 ```javascript
 // const returnReactElement = (val) => <h2>{val}</h2>
@@ -44,6 +44,50 @@ const ReturnReactElement = ({ name, group }) => {
 }
 ReactDOM.render(
   <ReturnReactElement name='おれ' group='Aチーム' />,
+  document.getElementById('root')
+)
+```
+
+### export / import
+
+#### export js / example -&gt; Valiable.js
+
+```javascript
+import React from 'react'
+
+export const stringVal = "stringVal!"
+
+export const myVal = () => {
+  console.log("moge")
+}
+
+export const ReactEl = () => <h2>React Comp</h2>
+```
+
+#### import -&gt; index.js
+
+```javascript
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+// from export valiable or function
+import { stringVal, myVal, ReactEl } from './Variable'
+
+// import view
+console.log(stringVal)
+myVal()
+
+const ReturnReactElement = ({ name, group }) => {
+  return (
+    <h2>
+      <ReactEl /> // <- Add import Component
+      {name} / {group}
+    </h2>
+  )
+}
+
+ReactDOM.render(
+  <ReturnReactElement name="おれ" group="Aチーム" />,
   document.getElementById('root')
 )
 ```
