@@ -8,6 +8,8 @@ description: React 再入門
 
 Component
 
+[https://github.com/BoxPistols/hello-react-window/pull/3/commits/7307438a2f56f6952922aabebb0a75a3b69c11a7](https://github.com/BoxPistols/hello-react-window/pull/3/commits/7307438a2f56f6952922aabebb0a75a3b69c11a7)
+
 ```javascript
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -29,18 +31,24 @@ ReactDOM.render(
 
 ```
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+#### props省略
 
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+```javascript
+// const returnReactElement = (val) => <h2>{val}</h2>
+const ReturnReactElement = ({ name, group }) => {
+  return (
+    <h2>
+      {name} / {group}
+    </h2>
+  )
+}
+ReactDOM.render(
+  <ReturnReactElement name='おれ' group='Aチーム' />,
+  document.getElementById('root')
+)
 ```
-{% endcode %}
+
+
 
 
 
