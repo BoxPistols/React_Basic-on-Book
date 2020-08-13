@@ -4,6 +4,8 @@ description: React 再入門
 
 # React Basic
 
+参照　[https://nakanisi-yusuke.gitbooks.io/react-basic-udemy/content/meteno-react-app/es2015-no-import-export.html](https://nakanisi-yusuke.gitbooks.io/react-basic-udemy/content/meteno-react-app/es2015-no-import-export.html)
+
 ## Props
 
 Component
