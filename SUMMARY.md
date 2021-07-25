@@ -19,7 +19,7 @@
 
 ## React Basic
 
-* [React Basic](react-basic/react-basic.md)
+* [React再入門](react-basic/react-basic.md)
 
 ## Library
 
