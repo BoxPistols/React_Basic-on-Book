@@ -4,6 +4,8 @@ description: example get json
 
 # Axios
 
+### Example
+
 ```typescript
 import * as React from 'react'
 import axios from 'axios'
@@ -39,4 +41,8 @@ export default function DogApi() {
 }
 
 ```
+
+### Docs
+
+{% embed url="https://qiita.com/keyakko/items/ec536545d2faa9cabc84" %}
 
