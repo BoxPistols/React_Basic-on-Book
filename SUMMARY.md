@@ -9,19 +9,20 @@
 * [07 CountFunction](07-countfunction.md)
 * [08 Class Base](08-class-base.md)
 
-## Storybook
-
-* [Add on Test](storybook/add-on-test.md)
-
----
-
-* [Styled-components](styled-components.md)
-
 ## React Basic
 
 * [React再入門](react-basic/react-basic.md)
 
-## Library
+## API
 
-* [Axios](library/axios.md)
+* [API on json file](api/api-on-json-file.md)
+* [Axios](api/axios.md)
+
+## CSS on React
+
+* [CSS in JS](css-on-react/styled-components.md)
+
+## Storybook
+
+* [Add on Test](storybook/add-on-test.md)
 
