@@ -17,6 +17,7 @@
 
 * [API INDEX](api/api-index.md)
 * [JSON on Local](api/api-on-json-file.md)
+* [Fetch](api/fetch.md)
 * [Axios](api/axios.md)
 
 ## CSS on React
