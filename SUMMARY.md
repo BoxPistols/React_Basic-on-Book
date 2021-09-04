@@ -31,4 +31,5 @@
 ## Redux
 
 * [Basic](redux/basic.md)
+* [useEffect](redux/useeffect.md)
 

@@ -10,8 +10,6 @@ description: redux basic
 
 {% embed url="https://github.com/BoxPistols/firebase-twitte\_redux" %}
 
-
-
 ## Code
 
 ```javascript
@@ -52,4 +50,6 @@ const App: React.FC = () => {
 export default App
 
 ```
+
+
 
