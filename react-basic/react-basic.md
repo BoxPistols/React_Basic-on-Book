@@ -4,7 +4,13 @@ description: React 再入門
 
 # React再入門
 
-参照　[https://nakanisi-yusuke.gitbooks.io/react-basic-udemy/content/meteno-react-app/es2015-no-import-export.html](https://nakanisi-yusuke.gitbooks.io/react-basic-udemy/content/meteno-react-app/es2015-no-import-export.html)
+参照
+
+{% embed url="https://nakanisi-yusuke.gitbooks.io/react-basic-udemy/content/meteno-react-app/es2015-no-import-export.html" %}
+
+{% embed url="http://basic-react.axlight.com/html/" %}
+
+
 
 ## [ReactCheetSheet](https://chott-works.com/tips/ReactCheetSheet)
 
