@@ -1,6 +1,6 @@
-# 01 Starter
+# index
 
-new Create
+{% embed url="https://ja.reactjs.org/" %}
 
-`$ npx create-react-app react_app`
+
 

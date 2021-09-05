@@ -1,17 +1,24 @@
 # Table of contents
 
-* [01 Starter](README.md)
-* [02 Data list](02-data-list.md)
-* [03 map function](03-map-function.md)
-* [04 ClickChangeEvent](04-clickchangeevent.md)
-* [05 Component](05-component.md)
-* [06 Component props](06-component-props.md)
-* [07 CountFunction](07-countfunction.md)
-* [08 Class Base](08-class-base.md)
+* [index](README.md)
 
-## React Basic
+## Starter
 
-* [React再入門](react-basic/react-basic.md)
+* [React Starter](starter/react-starter/README.md)
+  * [01 index](starter/react-starter/01-index.md)
+  * [02 Data list](starter/react-starter/02-data-list.md)
+  * [03 map function](starter/react-starter/03-map-function.md)
+  * [04 ClickChangeEvent](starter/react-starter/04-clickchangeevent.md)
+  * [05 Component](starter/react-starter/05-component.md)
+  * [06 Component props](starter/react-starter/06-component-props.md)
+  * [07 CountFunction](starter/react-starter/07-countfunction.md)
+  * [08 Class Base](starter/react-starter/08-class-base.md)
+  * [React再入門](starter/react-starter/react-basic.md)
+
+## Redux
+
+* [Basic](redux/basic.md)
+* [useEffect](redux/useeffect.md)
 
 ## API
 
@@ -27,9 +34,4 @@
 ## Storybook
 
 * [Add on Test](storybook/add-on-test.md)
-
-## Redux
-
-* [Basic](redux/basic.md)
-* [useEffect](redux/useeffect.md)
 

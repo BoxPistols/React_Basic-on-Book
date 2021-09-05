@@ -4,7 +4,11 @@ description: useEffect Basic
 
 # useEffect
 
-### useEffect Base
+## useEffect Base
+
+### Docs
+
+{% embed url="https://qiita.com/seira/items/e62890f11e91f6b9653f" %}
 
 ### Code
 
